@@ -295,7 +295,7 @@ $(function() {
 	getTriviaQuestions(triviaQuestions);
 
     	// Initialize and start the game timer
-    	timer.reset(5);
+    	timer.reset(90);
     	timer.start(
     		// When a timer event occurs display the remaining time
     		function() {
